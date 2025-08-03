@@ -75,6 +75,15 @@ docs/_build/
 .pybuilder/
 target/
 
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Ignore data files you don’t want to commit
+data/*.csv
+analysis/*.csv
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -137,7 +146,9 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+oil_venv/
 .venv
+.env/
 env/
 venv/
 ENV/
@@ -186,10 +197,13 @@ cython_debug/
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
+ .vscode/
 
 # Ruff stuff:
 .ruff_cache/
+# OS-specific
+.DS_Store
+Thumbs.db
 
 # PyPI configuration file
 .pypirc
