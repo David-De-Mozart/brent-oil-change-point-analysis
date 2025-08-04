@@ -50,7 +50,7 @@ This project analyzes structural breaks in Brent crude oil prices from 1987-2022
 
 1. Clone the repository
 
-    git clone https://github.com/dawit-senaber/brent-oil-change-point-analysis.git
+    git clone https://github.com/dawit-senaber/brent-oil-change-point-analysis.git 
     cd brent-oil-change-point-analysis
 
 2. Set up Python environment
